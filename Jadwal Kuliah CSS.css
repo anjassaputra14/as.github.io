@@ -1,0 +1,90 @@
+
+@font-face {
+    font-family:Montserrat;
+    src: url(fonts/Montserrat-Regular.ttf);
+    
+}
+
+@font-face {
+    font-family:Painter;
+    src: url(fonts/Painter_PERSONAL_USE_ONLY.ttf);
+    
+}
+
+@font-face {
+    font-family:futura;
+    src: url(fonts/futur.ttf);
+    
+}
+
+
+
+html, body{
+    height: 100vh;
+    margin: 0;
+    
+}
+
+body{
+    background:#e2e2e2;
+    font-family: Montserrat;
+    color:yellow;
+    
+}
+#bg{
+ 
+    -webkit-clip-path: polygon(0 0, 100% 0, 60% 100%, 0% 100%);
+    clip-path: polygon(0 0, 100% 0, 60% 100%, 0% 100%);
+    background: #005fff;
+    
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    margin: 0;
+    z-index: -1;
+}
+    
+
+
+
+#main  #logo{
+    grid-area: logo;
+    font-size: 50pt;
+    padding: 20px;
+    font-family: Painter;
+}
+
+
+#main  nav ul{
+    list-style-type: none;
+    grid-area: menu;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+    
+} 
+
+
+
+
+#main-content {
+    grid-area: main;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#main-content #big-title h1{
+    
+    font-family:futura;
+    font-size: 4em;
+	
+}
+
+	
+
+
+
+
